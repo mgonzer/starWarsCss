@@ -1,0 +1,73 @@
+.poster {
+  position: absolute;
+  width: 800px;
+  height: 1200px;
+  background: #191919;
+}
+
+.leftTriangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top:400px solid #4c4c4c;
+  border-left:400px solid transparent;
+}
+.rightTriangle {
+  float: right;
+  /*position: absolute;*/
+  width: 0;
+  height: 0;
+  border-top: 400px solid #7f7f7f;
+  border-right: 400px solid transparent;
+}
+
+
+.leftBigCircle {
+  position: absolute;
+  margin-top: 65%;
+  margin-left: 31.2%;
+  height: 300px;
+  width: 150px;
+  border-radius: 300px 0 0 300px;
+  background: #4c4c4c;
+}
+.rightBigCircle {
+  position: absolute;
+  margin-top:65%;
+  margin-left:50%;
+  height: 300px;
+  width: 150px;
+  border-radius: 0 300px 300px 0;
+  background: #7f7f7f;
+
+}
+
+.leftSmallCircle {
+  position: absolute;
+  margin-top: 100%;
+  margin-left: 73%;
+  height: 80px;
+  width: 40px;
+  border-radius: 80px 0 0 80px;
+  background: #191919;
+}
+
+.rightSmallCircle {
+  position: absolute;
+  margin-top: 100%;
+  margin-left: .3%;
+  height: 80px;
+  width: 40px;
+  border-radius: 0 80px 80px 0;
+  background: #4c4c4c;
+}
+
+h2{
+  position: absolute;
+  color: white;
+  margin-top: 1000px;
+  margin-left: 38%;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
